@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab_Work_SMD_Section_BSCS_6C</string>
+    <string name="textview">TextView</string>
+    <string name="price">price</string>
+    <string name="company">company</string>
+    <string name="name">name</string>
+    <string name="check_permission">Check Permission</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="todo">TODO</string>
+    <string name="download_image">Download Image</string>
+    <string name="web_content_will_appear_here">Web Content will appear here</string>
+    <string name="download_web_content">Download Web Content</string>
+    <string name="check_permissions">Check Permissions...</string>
+</resources>
