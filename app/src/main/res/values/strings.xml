@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Lab_Work_SMD_Section_BSCS_6C</string>
-    <string name="textview">TextView</string>
     <string name="price">price</string>
     <string name="company">company</string>
     <string name="name">name</string>
@@ -11,4 +10,8 @@
     <string name="web_content_will_appear_here">Web Content will appear here</string>
     <string name="download_web_content">Download Web Content</string>
     <string name="check_permissions">Check Permissions...</string>
+    <string name="show_file">Show File</string>
+    <string name="save_file">Save File</string>
+    <string name="textview">TextView</string>
+    <string name="write_your_text">Write Your Text</string>
 </resources>
