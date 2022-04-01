@@ -48,7 +48,7 @@
         android:id="@+id/txtfileshowdata"
         android:layout_width="288dp"
         android:layout_height="46dp"
-        android:text="@string/textview"
+        android:text="@string/showreadfh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"

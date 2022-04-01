@@ -19,6 +19,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab_Work_SMD_Section_BSCS_6C">
         <activity
+            android:name=".Task03ListView.Task03MainActivityListView"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".FileHandlingExample.FileHandlingExampleOne"
             android:exported="true">
             <intent-filter>
