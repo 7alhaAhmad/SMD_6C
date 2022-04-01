@@ -58,7 +58,7 @@ public class FileHandlingExampleOne extends AppCompatActivity {
             }
             else{
                 while(value!= null){
-                    readData += value;
+                    readData = readData + value;
                     value=bufferedReader.readLine();
                 }
             }
