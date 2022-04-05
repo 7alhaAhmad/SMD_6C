@@ -5,23 +5,24 @@
     <string name="name">name</string>
     <string name="check_permission">Check Permission</string>
     <string name="request_permission">Request Permission</string>
-<!--    <string name="todo">TODO</string>-->
+    <!--    <string name="todo">TODO</string>-->
     <string name="download_image">Download Image</string>
     <string name="web_content_will_appear_here">Web Content will appear here</string>
     <string name="download_web_content">Download Web Content</string>
     <string name="check_permissions">Check Permissions...</string>
     <string name="show_file">Show File</string>
     <string name="save_file">Save File</string>
-<!--    <string name="textview">TextView</string>-->
+    <!--    <string name="textview">TextView</string>-->
     <string name="write_your_text">Write Your Text</string>
-<!--    <string name="textview">TextView</string>-->
+    <!--    <string name="textview">TextView</string>-->
     <string name="button">Button</string>
-<!--    <string name="textview">TextView</string>-->
+    <!--    <string name="textview">TextView</string>-->
     <string name="todo">TODO</string>
     <string name="showreadfh">showreadfh</string>
     <string name="citynameonimg">citynameonimg</string>
     <string name="likestxt">likestxt</string>
     <string name="popular_destinations">Popular Destinations</string>
+    <string name="click_here">Click Here...</string>
     <!--    <string name="todo">TODO</string>-->
 
     <string-array name="citiesArr">
@@ -42,10 +43,24 @@
 
     <string-array name="likesArr">
         <item>7,3K</item>
-        <item>5,2K </item>
+        <item>5,2K</item>
         <item>3,5K</item>
         <item>3,1K</item>
         <item>9,9K</item>
+    </string-array>
+
+    <string-array name="contacts_array">
+        <item>Name1</item>
+        <item>Name2</item>
+        <item>Name3</item>
+        <item>Name4</item>
+    </string-array>
+
+    <string-array name="details_array">
+        <item>Details1</item>
+        <item>Details2</item>
+        <item>Details3</item>
+        <item>Details4</item>
     </string-array>
 
 </resources>
