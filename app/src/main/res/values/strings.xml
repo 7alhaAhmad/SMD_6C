@@ -26,7 +26,7 @@
     <string name="textview">\@string/textview</string>
     <!--    <string name="textview">TextView</string>-->
     <!--    <string name="textview">TextView</string>-->
-        <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 
 
     <string-array name="citiesArr">
@@ -157,5 +157,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="shake_your_device_to_get_sensor_value">Shake your Device to get Sensor Value</string>
 
 </resources>
