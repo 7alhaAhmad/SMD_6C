@@ -1,8 +1,8 @@
 package com.example.lab_work_smd_section_bscs_6c.CardViewExamples;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lab_work_smd_section_bscs_6c.R;
 

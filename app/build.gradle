@@ -25,6 +25,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -43,4 +46,8 @@ dependencies {
     implementation 'com.karumi:dexter:6.2.3'
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
     implementation "androidx.cardview:cardview:1.0.0"
+
+    //Glide Library ((usage is for images))
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
