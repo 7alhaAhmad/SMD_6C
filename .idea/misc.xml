@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_bound_service_example_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_card_view_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_cmmain.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_download_image_example.xml" value="0.21981981981981982" />
@@ -11,8 +12,10 @@
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_my_contacts_main.xml" value="0.2" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_permission_example_one.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_permission_example_two_with_dexter.xml" value="0.2" />
+        <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_proximity_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_recycler_view_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_sensors_example_one.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_service_example_one_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_task03_main_list_view.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_task4_recycler_view_main.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/ctalh/AndroidStudioProjects/Lab_Work_SMD_Section_BSCS_6C/app/src/main/res/layout/activity_web_content_example.xml" value="0.21981981981981982" />
