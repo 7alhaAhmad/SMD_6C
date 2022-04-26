@@ -19,6 +19,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab_Work_SMD_Section_BSCS_6C">
         <activity
+            android:name=".SQLiteExample.EditContactEntery"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteExample.NewContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteExample.ContactEntery"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteExample.ExampleOneMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".SensorExamples.ProximityMainActivity"
             android:exported="true">
             <intent-filter>

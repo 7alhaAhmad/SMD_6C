@@ -163,5 +163,15 @@
     <string name="play_pause">Play/Pause</string>
     <string name="stop">STOP</string>
     <string name="textview1">TextView</string>
+    <string name="contacts" />
+    <string name="add_contact" />
+    <string name="buttonsavetosql" />
+    <string name="home_address" />
+    <string name="firstname" />
+    <string name="secondname" />
+    <string name="phone_number" />
+    <string name="email" />
+    <string name="deletefromdb" />
+    <string name="update" />
 
 </resources>
