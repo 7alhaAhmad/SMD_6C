@@ -28,7 +28,7 @@
             android:name=".SQLiteExample.ContactEntery"
             android:exported="false" />
         <activity
-            android:name=".SQLiteExample.ExampleOneMainActivity"
+            android:name=".SQLiteExample.MainActivityContactList"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
