@@ -1,7 +1,5 @@
 package com.example.lab_work_smd_section_bscs_6c.AsyncTaskClassExample;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -9,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.lab_work_smd_section_bscs_6c.R;
 
 import java.io.IOException;
 import java.io.InputStream;
-//import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.ExecutionException;
@@ -31,8 +30,18 @@ public class DownloadImageExample extends AppCompatActivity {
         imageView = findViewById(R.id.imgAsync);
     }
 
-    public class Download extends AsyncTask<String, Void, Bitmap>
-    {
+    public void download_image(View view) {
+        Download download = new Download();
+        Bitmap bitmap = null;
+        try {
+            bitmap = download.execute("https://cdn.thinglink.me/api/image/854796788643659778/1240/10/scaletowidt&quot").get();
+        } catch (ExecutionException | InterruptedException e) {
+            e.printStackTrace();
+        }
+        imageView.setImageBitmap(bitmap);
+    }
+
+    public class Download extends AsyncTask<String, Void, Bitmap> {
 
         @Override
         protected Bitmap doInBackground(String... strings) {
@@ -52,16 +61,5 @@ public class DownloadImageExample extends AppCompatActivity {
             }
             return null;
         }
-    }
-
-    public void download_image(View view) {
-        Download download = new Download();
-        Bitmap bitmap = null;
-        try {
-            bitmap = download.execute("https://cdn.thinglink.me/api/image/854796788643659778/1240/10/scaletowidt&quot").get();
-        } catch (ExecutionException | InterruptedException e) {
-            e.printStackTrace();
-        }
-        imageView.setImageBitmap(bitmap);
     }
 }

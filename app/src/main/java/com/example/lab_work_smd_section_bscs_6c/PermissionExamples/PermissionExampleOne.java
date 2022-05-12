@@ -25,12 +25,10 @@ public class PermissionExampleOne extends AppCompatActivity {
     }
 
     public void check_permission(View view) {
-        if(!CheckPermissionRet())
-        {
-            Snackbar.make(view,"Please Request for Permission",Snackbar.LENGTH_LONG).show();
+        if (!CheckPermissionRet()) {
+            Snackbar.make(view, "Please Request for Permission", Snackbar.LENGTH_LONG).show();
             //Toast.makeText(this, "Please Request for Permission", Toast.LENGTH_SHORT).show();
-        }
-        else {
+        } else {
             Snackbar.make(view, "Permission Granted Already", Snackbar.LENGTH_LONG).show();
             //Toast.makeText(this, "Permission Granted Already", Toast.LENGTH_SHORT).show();
         }
@@ -45,27 +43,23 @@ public class PermissionExampleOne extends AppCompatActivity {
 
 
     public void request_permission(View view) {
-        if(!CheckPermissionRet())
-        {
+        if (!CheckPermissionRet()) {
             RequestPermission();
-        }
-        else {
+        } else {
             Snackbar.make(view, "Permission Granted Already", Snackbar.LENGTH_LONG).show();
         }
     }
 
     private void RequestPermission() {
-        ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION,CAMERA}, 101);
+        ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION, CAMERA}, 101);
     }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(requestCode == 101 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
-        {
+        if (requestCode == 101 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-        }
-        else
+        } else
             Toast.makeText(this, "User Denied Permission", Toast.LENGTH_SHORT).show();
     }
 }
